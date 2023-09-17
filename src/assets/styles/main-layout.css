@@ -1,0 +1,36 @@
+.main{
+}
+
+/****************** main-content */
+.main-content{
+    min-width: 87%;
+    position: relative;
+    top: 0;
+    left: 15.31rem;
+    transition: all .3s;
+}
+.collapsed + .main-content{
+    width: 97%;
+    position: relative;
+    top: 0;
+    left: 60px;
+
+}
+.main-content header{
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.928);
+    margin-left: -5px;
+}
+.main-content header h2{
+    text-transform: capitalize;
+}
+.main-content header p span{
+    color: #158f58;
+}
+.content{
+    top: 100px;
+}
+.row{
+   color: #fff;
+   max-width: 99%;
+}
